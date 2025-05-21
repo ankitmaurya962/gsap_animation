@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Gilroy;
+    src: url('gilroy-regular-webfont.woff2') format('woff2'),
+         url('gilroy-regular-webfont.woff') format('woff'),
+         url('gilroy-regular-webfont.ttf') format('ttf');
+
+    font-weight: lighter;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    padding-top:0.1rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
+}
+#nav-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.text-content{
+    font-size: 4rem;
+    font-weight: 400;
+    width: 80%;
+    margin-left: 15%;
+    line-height: 7rem;
+    position: relative;
+    z-index: 7;
+}
+.text-content h1:nth-child(1){
+    margin-top: 14rem;
+}
+.text-content h1:nth-child(2){
+    text-align: center;
+}
+.text-content h1:nth-child(3){
+    text-align: center;
+}
+.img-container{
+    top: 20%;
+    left: 40%;
+    height: 20rem;
+    width: 15rem;
+    overflow: hidden;
+    position: absolute;
+}
+img{
+    right: 80px;
+    height: 700px;
+    width: 300px;
+    object-fit: cover; 
+}
+#img1{
+    rotate: 5deg;
+}
+#img2{
+    rotate: 15deg;
+}
+#img1{
+    rotate: 25deg;
+}
