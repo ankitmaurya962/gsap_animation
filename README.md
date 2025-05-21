@@ -27,6 +27,4 @@ This project uses the **Gilroy** font, which is included in the `/assets/fonts` 
     font-family: Gilroy;
     src: url('gilroy-regular-webfont.woff2') format('woff2'),
          url('gilroy-regular-webfont.woff') format('woff'),
-         url('gilroy-regular-webfont.ttf') format('ttf');
-    font-weight: lighter;
 }
